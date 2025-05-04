@@ -1,83 +1,122 @@
-#  Layer Airdrop OG
+# Layer Airdrop OG
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/rmndkyl/MandaNode/main/WM/LYID_OG_LOGO.png" alt="Layer Airdrop Logo" width="200"/>
   
-  <h3>Your Gateway to Blockchain Rewards</h3>
+  <h3>Enterprise-Grade Blockchain Automation & Airdrop Management</h3>
   
-  [![Followers](https://img.shields.io/badge/followers-7-blue)](https://github.com/layerairdrop)
-  [![Indonesia](https://img.shields.io/badge/location-Indonesia-red)](https://github.com/layerairdrop)
-  [![Website](https://img.shields.io/badge/website-https%3A%2F%2Ft.me%2Flayerairdrop-brightgreen)](https://t.me/layerairdrop)
-  [![Discussion](https://img.shields.io/badge/discussion-https%3A%2F%2Ft.me%2Flayerairdropdiskusi-orange)](https://t.me/layerairdropdiskusi)
+  [![GitHub Stars](https://img.shields.io/github/stars/layerairdrop/layerairdrop?style=for-the-badge&color=yellow)](https://github.com/layerairdrop)
+  [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
+  [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/layerairdrop)
+  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/layerairdrop)
+  [![Indonesia](https://img.shields.io/badge/BASED_IN-INDONESIA-red?style=for-the-badge)](https://github.com/layerairdrop)
 </div>
 
-## 📝 About Us
+## 📊 Project Overview
 
-We are a community-driven group dedicated to helping members navigate the exciting world of blockchain airdrops, token claims, and reward opportunities. Our mission is to provide reliable tools, guides, and automation solutions that make participating in blockchain ecosystems more accessible and efficient.
+Layer Airdrop OG is a comprehensive suite of automation tools designed to streamline blockchain interactions, airdrop management, and reward distribution. Our platform provides enterprise-grade solutions for blockchain projects and individual users looking to optimize their participation in the decentralized economy.
 
-## 🛠️ Our Tools
+### Why Choose Layer Airdrop OG?
 
-Our GitHub organization hosts a collection of tools designed to automate and simplify blockchain interactions:
+- **Multi-Chain Support**: Tools that work across Ethereum, Solana, Base, Zora, Sepolia, and numerous testnets
+- **Secure Architecture**: Advanced proxy rotation and wallet management with security-first design
+- **Resource Efficiency**: Optimized automation that minimizes gas costs and maximizes rewards
+- **Community-Driven**: Continuously developed based on real user feedback and blockchain evolution
 
-### Airdrop Claim Bots
-- **Billions-BOT**: Node.js bot for automatically claiming daily rewards on Billions Network with proxy support
-- **Solix-Auto-BOT**: Automated bot for Solix Depin network
-- **Seismic-Deploy-BOT**: Tool that automates various operations on the Seismic Testnet
-- **GpuNet-BOT**: Automation tool for managing GPU net token tasks and referrals
+## 🔍 Architecture
 
-### Verification & Check-in Tools
-- **Zora-Checker**: Script to check token allocation on ZORA for multiple addresses
-- **ByteNova-Daily-BOT**: Automates daily check-ins and task completion for ByteNova platform
-- **Coresky-BOT**: Auto check-in, ticket minting, and daily spin wheel automation
+```mermaid
+graph TD
+    A[User Interface] --> B[Task Orchestrator]
+    B --> C{Blockchain Selector}
+    C --> D[Ethereum Module]
+    C --> E[Solana Module]
+    C --> F[Other Chains]
+    D --> G[Transaction Executor]
+    E --> G
+    F --> G
+    G --> H[Security Layer]
+    H --> I[Proxy Manager]
+    I --> J[Network Interface]
+    J --> K[Blockchain Networks]
+    L[Wallet Manager] --> H
+    M[Monitoring System] --> B
+```
 
-### Interaction Tools
-- **r2-bot**: Tool for interacting with USDC, R2USD, and sR2USD tokens on Sepolia testnet
-- **Stork**: Verification tool for Stork Oracle Network
-- **Puzzle-mania-bot**: Handles multiple accounts and completes daily tasks for 0G Puzzle Mania platform
-- **Klok-Chat-BOT**: Automated daily chat interaction with Klok Chat
-- **Taker-Sowing-BOT**: Automated script for the Taker.xyz Sowing platform
+## 🛠️ Tools & Capabilities
 
-## 🤝 Join Our Community
+Our GitHub organization hosts specialized automation tools designed to maximize blockchain interaction efficiency:
 
-We believe in the power of community collaboration. Join us to:
-- Learn about new airdrop opportunities
-- Get help setting up automation tools
+### Airdrop Automation Suite
+
+| Tool Name | Purpose | Features |
+|-----------|---------|----------|
+| **Billions-BOT** | Automated claiming on Billions Network | • Multi-wallet management<br>• Scheduled claiming<br>• Advanced proxy support |
+| **Solix-Auto-BOT** | Task automation for Solix DePIN | • Task verification<br>• Auto-rewards claiming<br>• Performance analytics |
+| **Seismic-Deploy-BOT** | Operations on Seismic Testnet | • Smart contract deployment<br>• Gas optimization<br>• Cross-chain bridging |
+| **GpuNet-BOT** | GPU net token & referral management | • Referral tracking<br>• Token management<br>• Reward optimization |
+
+### Verification & Analytics Tools
+
+| Tool Name | Purpose | Features |
+|-----------|---------|----------|
+| **Zora-Checker** | Token allocation verification on ZORA | • Multi-address checking<br>• Historical snapshots<br>• Eligibility predictions |
+| **ByteNova-Daily-BOT** | Daily check-ins for ByteNova | • Scheduled automation<br>• Task verification<br>• Reward tracking |
+| **Coresky-BOT** | Complete platform automation | • Check-in automation<br>• Ticket minting<br>• Spin wheel optimization |
+
+### Cross-Chain Interaction Tools
+
+| Tool Name | Purpose | Features |
+|-----------|---------|----------|
+| **r2-bot** | USDC/R2USD/sR2USD token management | • Cross-chain transfers<br>• Swap automation<br>• Token bridging |
+| **Stork** | Stork Oracle Network verification | • Oracle data verification<br>• Network monitoring<br>• Reliability analytics |
+| **Puzzle-mania-bot** | 0G Puzzle Mania platform automation | • Multi-account management<br>• Daily task completion<br>• Reward optimization |
+
+## 🤝 Community & Support
+
+Layer Airdrop OG thrives on community collaboration and shared knowledge. Join us to:
+
+- Discover emerging airdrop opportunities
+- Get technical support for tool implementation
 - Share strategies and insights
-- Collaborate on developing new tools
+- Contribute to open-source development
 
 ### Connect With Us
-- 💬 [Telegram Group](https://t.me/layerairdrop)
+
+- 💬 [Telegram Community](https://t.me/layerairdrop)
 - 🗣️ [Discussion Group](https://t.me/layerairdropdiskusi)
+- 🤖 [Discord Server](https://discord.gg/layerairdrop)
+- 📱 [Twitter/X](https://twitter.com/layerairdrop)
 
-## 🚀 Getting Started
+## 👥 Contributing
 
-Most of our tools are written in JavaScript and designed to be easy to set up and use. To get started:
+We welcome contributions from developers of all skill levels! Here's how to get involved:
 
-1. Choose a tool from our repositories
-2. Clone the repository
-3. Follow the setup instructions in the specific tool's README
-4. Join our Telegram for support and updates
+1. Fork the repository you'd like to improve
+2. Create a feature branch: `git checkout -b feature/amazing-improvement`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to your branch: `git push origin feature/amazing-improvement`
+5. Submit a pull request
 
-## 🌟 Contributing
+For more details, check our [Contribution Guidelines](https://github.com/layerairdrop/docs/CONTRIBUTING.md).
 
-We welcome contributions from the community! If you'd like to contribute:
+## ⚠️ Security Notice
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+Blockchain interaction tools carry inherent risks. We strongly advise:
 
-## ⚠️ Disclaimer
+- **Separate wallets**: Never use your main wallet for airdrop farming
+- **Code review**: Always review scripts before execution
+- **Private key security**: Never share private keys or seed phrases
+- **Terms compliance**: Follow the terms of service for all platforms
+- **Risk management**: Only use funds you can afford to lose
 
-Our tools are provided for educational purposes. Always:
-- Use at your own risk
-- Review code before running any automated tools
-- Never share private keys or seed phrases
-- Follow the terms of service for all platforms
+## 📜 License
+
+All our tools are open source under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
-  <p>We truly appreciate your active participation and the way you've consistently helped fellow members in the Layer Airdrop group.</p>
+  <p>Building the future of blockchain automation, one tool at a time.</p>
   <p>Happy Hunting! 🎯</p>
 </div>
